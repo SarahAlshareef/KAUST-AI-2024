@@ -1,43 +1,41 @@
 # Task 3 – EMNIST Character Classification
 
 ## Overview
-This task focuses on image classification using the EMNIST dataset. The objective was to build a supervised learning model capable of classifying handwritten characters by training on pixel-based image data.
+This task focuses on multi-class image classification using the EMNIST dataset. The objective was to build a supervised learning model capable of classifying handwritten characters based on pixel-level image data.
 
 ## Problem Statement
-The EMNIST dataset consists of grayscale images representing handwritten characters. The task is formulated as a multi-class classification problem, where each image must be correctly assigned to its corresponding character label.
+The EMNIST dataset consists of grayscale images representing handwritten characters. The task is formulated as a multi-class classification problem where each image must be assigned to its correct character label.
 
 ## Data Preparation
 The following preprocessing steps were applied:
 
 - Loading the EMNIST dataset
-- Reshaping image data into appropriate input format
-- Normalizing pixel values for stable training
+- Reshaping image data into flattened vector format
+- Normalizing pixel intensity values
 - Splitting data into training and testing sets
 
-Proper normalization ensures that pixel intensity values are scaled consistently, improving model convergence.
+Normalization ensures consistent pixel scaling and supports stable model training.
 
 ## Modeling Approach
-A neural network-based classifier was implemented to learn patterns from image pixel data.
+A feedforward neural network (fully connected architecture) was implemented using flattened grayscale image inputs.
 
-The model learns to:
-
-- Extract meaningful features from pixel inputs
-- Minimize classification error using supervised learning
-- Predict the correct character label
+The model was trained to:
+- Learn classification boundaries from pixel features
+- Minimize categorical classification error
+- Predict the correct character class label
 
 ## Evaluation
 Model performance was evaluated using:
 
-- Accuracy score
-- Training and validation performance monitoring
+- Classification accuracy on the test set
 
-Classification accuracy was used as the primary metric to assess model effectiveness in recognizing handwritten characters.
+Accuracy was used as the primary metric to assess recognition performance.
 
 ## Key Learning Outcomes
-- Understanding image-based classification tasks
-- Working with high-dimensional pixel data
-- Implementing neural network models for multi-class problems
-- Evaluating classification performance in computer vision tasks
+- Working with high-dimensional image data
+- Preparing image datasets for neural network training
+- Implementing multi-class classification models
+- Evaluating performance of deep learning models
 
 ## Conclusion
-This task strengthened practical understanding of image classification workflows, including preprocessing image data, training neural networks, and evaluating performance on unseen data.
+This task reinforced foundational concepts in image classification, neural network training, and performance evaluation under time-constrained exam conditions.
