@@ -32,12 +32,18 @@ Focus: classification workflow and metric interpretation.
 ---
 
 ### 3️⃣ EMNIST Character Classification
-Neural network-based image classifier trained on the EMNIST handwritten character dataset.  
-Focus areas:
-- Image normalization
-- Neural network training
-- Multi-class classification accuracy evaluation
 
+Implementation of a multi-class image classification model using the EMNIST handwritten character dataset.
+
+A feedforward neural network (fully connected architecture) was trained on flattened grayscale image pixel inputs. The workflow included:
+
+- Dataset loading and preprocessing
+- Pixel value normalization
+- Reshaping image data into vector form
+- Training a supervised neural network classifier
+- Evaluating performance using classification accuracy
+
+Focus: understanding image data handling, multi-class classification, and neural network training fundamentals under exam conditions.
 ---
 
 ## Technical Skills Demonstrated
