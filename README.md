@@ -44,6 +44,7 @@ A feedforward neural network (fully connected architecture) was trained on flatt
 - Evaluating performance using classification accuracy
 
 Focus: understanding image data handling, multi-class classification, and neural network training fundamentals under exam conditions.
+
 ---
 
 ## Technical Skills Demonstrated
